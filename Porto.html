@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+
+    <link rel="stylesheet" href="PortoStyle.css">
+
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">MyProfile | Delvin</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="slides">
+            <div class="slide active" style="background-image: url('Asset/Screenshot 2026-08-10 110946.png');"></div>
+            <div class="slide" style="background-image: url('Asset/Screenshot 2026-08-13 112532.png');"></div>
+            <div class="slide" style="background-image: url('Asset/Screenshot 2026-08-10 135513.png');"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1>Halo, Saya <span>Delvin</span></h1>
+            <p>Saya adalah junior web developer yang sedang terus belajar dan mengembangkan kemampuan dalam dunia programming</p>
+            <a href="#projects" class="btn">Lihat Karya Saya</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-grid">
+            <div class="card1">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p>
+                    Saya adalah <b>Delvin Alfiano Tjhia</b>, biasa dipanggil <b>Delvin</b>.
+                    Saya lahir pada 1 Oktober 2010 di Jakarta dan saat ini sedang menekuni dunia programming.
+                    Saya tertarik pada pengembangan website
+                </p>
+                <div class="mini-details">
+                    <span><strong>Nama:</strong> Delvin Alfiano Tjhia</span>
+                    <span><strong>Asal:</strong> Jakarta</span>
+                    <span><strong>Hobi:</strong> Game, olahraga, membaca</span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <h2 class="section-title">Skill & Fokus</h2>
+                <div class="skills-list">
+                    <span class="skill-badge">HTML</span>
+                    <span class="skill-badge">CSS</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">Kotlin</span>
+                    <span class="skill-badge">C++</span>
+                </div>
+                <p>
+                    Saat ini, saya sedang fokus memperdalam dasar-dasar pemrograman supaya skill ku akan lebih sempurna
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title1">Proyek Karya</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <span class="project-tag">Web Development</span>
+                <h3>Perpustakaan Digital</h3>
+                <p>Website yang dibuat dengan Konsep Perpustakaan Digital, mencakup tampilan umum dan struktur informasi yang rapi untuk kebutuhan edukasi, serta kemudahan dalam pencarian dan pengelolaan koleksi buku.</p>
+                <a href="#">Lihat tampilan sedikit</a>
+            </div>
+            <div class="project-card">
+                <span class="project-tag">Portfolio</span>
+                <h3>Personal Portfolio</h3>
+                <p>Website portofolio pribadi yang menampilkan profil, keterampilan, proyek, dan cara menghubungi saya secara profesional.</p>
+                <a href="#">Lihat Detail</a>
+            </div>
+            <div class="project-card">
+                <span class="project-tag">Coming Soon</span>
+                <h3>Proyek Selanjutnya</h3>
+                <p>Masih dalam tahap pengembangan.</p>
+                <a href="#">Segera Hadir</a>
+            </div>
+        </div>
+    </section>
+
+<div class="shade">
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <p>
+            Jika ingin berbicara pada saya, atau ada yang ingin ditanyakan
+            <br>Silakan hubungi saya melalui email atau media sosial di bawah ini.
+        </p>
+
+        <a href="mailto:k1n.l4yd@gmail.com" class="btn">Kirim Email</a>
+        <a href="https://instagram.com/maw_l3" target="_blank" rel="noreferrer" class="btn btn-instagram">
+            <span class="instagram-icon" aria-hidden="true"></span>
+            Instagram
+        </a>
+        <a href="https://discord.com/users/m4w_l" target="_blank" rel="noreferrer" class="btn btn-discord">
+            <span class="discord-icon" aria-hidden="true"></span>
+            Discord
+        </a>
+    </section>
+</div>
+    <section id="download-cv">
+        <h2 class="section-title">Download CV</h2>
+        <p>Tertarik untuk mengetahui lebih lanjut tentang saya? Unduh CV saya di bawah ini.</p>
+        <a href="Asset/PortoFolio Singkat.png" download class="btn btn-cv">
+            <span class="cv-icon" aria-hidden="true">⬇</span>
+            Download CV
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MyProfile - Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <button id="backToTop" aria-label="Back to top">↑</button>
+
+</body>
+<script src="java.js">
+</script>
+</html>
